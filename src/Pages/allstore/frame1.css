@@ -284,12 +284,12 @@
   border-radius: 11px 11px 0 0;
 }
 .frame1-header {
-  top: 0px;
+  top: 1px;
   left: 0px;
   width: calc(100% - 10px);
   height: 120px;
-  display: flex;
   padding: 20px 130px;
+  display: flex;
   position: absolute;
   box-shadow: 0px 4px 15px 0px rgba(252, 101, 126, 0.15000000596046448) ;
   align-items: center;
