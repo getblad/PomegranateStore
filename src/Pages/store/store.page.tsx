@@ -25,7 +25,10 @@ function StorePage({name, address, workers, photo, openingHours}:StoreProps) {
 			<div className="frame5-frame5">
 				<div className="frame5-products">
           <span className="frame5-text">
-            <span>Products</span>
+             <div className="frame5-filters">
+	            Products
+					<SearchBox/>
+					</div>
           </span>
 					<Tabs selectedIndex={tabIndex} onSelect={handleTabSelect}>
 						<TabList className="tab-list">
@@ -484,87 +487,86 @@ function StorePage({name, address, workers, photo, openingHours}:StoreProps) {
             {/*</span>*/}
 			{/*		</div>*/}
 				</div>
-					<div className="frame5-filters">
-					<SearchBox/>
-					</div>
 
-				<div className="frame5-storeinfo">
-          <span className="frame5-text096 H1">
-            <span>{name}</span>
-          </span>
-					<span className="frame5-text098">
-            <span>{address}</span>
-          </span>
-					<span className="frame5-text100">
-            <span>Opening hours: {openingHours}</span>
-          </span>
-					<div className="frame5-group1">
-            <span className="frame5-text102">
-              <span>Workers: {workers}</span>
-            </span>
-						<span className="frame5-text104">
-              <span>See all</span>
-            </span>
-						<span className="frame5-text106">
-              <span>
-                Director - Daria S.
-                <span
-	                dangerouslySetInnerHTML={{
-		                __html: ' ',
-	                }}
-                />
-              </span>
-            </span>
-						<span className="frame5-text108">
-              <span>
-                Manager - Karl J.
-                <span
-	                dangerouslySetInnerHTML={{
-		                __html: ' ',
-	                }}
-                />
-              </span>
-            </span>
-						<span className="frame5-text110 Text">
-              <span>
-                Accountant - Mari K.
-                <span
-	                dangerouslySetInnerHTML={{
-		                __html: ' ',
-	                }}
-                />
-              </span>
-            </span>
-					</div>
-					<span className="frame5-text112">
-            <span>
-              <span>Contacts:</span>
-              <br></br>
-              <span>tel: +3456142536</span>
-              <br></br>
-              <span>e-mail: oh.no1pome@granate.com</span>
-            </span>
-          </span>
-					<img
-						src="/playground_assets/img130011657-9ixa-500h.png"
-						alt="IMG130011657"
-						className="frame5-i-m-g13001"
-					/>
-				</div>
-				<div className="frame5-breadcrumbs">
-          <span className="frame5-text119">
-            <span>All stores</span>
-          </span>
-					<img
-						src="/playground_assets/iconsarrowsdiagramsarrow51692-bvt8.svg"
-						alt="IconsArrowsDiagramsArrow51692"
-						className="frame5-icons-arrows-diagrams-arrow5"
-					/>
-					<span className="frame5-text121">
-            <span>Stor №1</span>
-          </span>
 
-				</div>
+
+			{/*	<div className="frame5-storeinfo">*/}
+          {/*<span className="frame5-text096 H1">*/}
+          {/*  <span>{name}</span>*/}
+          {/*</span>*/}
+			{/*		<span className="frame5-text098">*/}
+          {/*  <span>{address}</span>*/}
+          {/*</span>*/}
+			{/*		<span className="frame5-text100">*/}
+          {/*  <span>Opening hours: {openingHours}</span>*/}
+          {/*</span>*/}
+			{/*		<div className="frame5-group1">*/}
+          {/*  <span className="frame5-text102">*/}
+          {/*    <span>Workers: {workers}</span>*/}
+          {/*  </span>*/}
+			{/*			<span className="frame5-text104">*/}
+          {/*    <span>See all</span>*/}
+          {/*  </span>*/}
+			{/*			<span className="frame5-text106">*/}
+          {/*    <span>*/}
+          {/*      Director - Daria S.*/}
+          {/*      <span*/}
+	      {/*          dangerouslySetInnerHTML={{*/}
+		  {/*              __html: ' ',*/}
+	      {/*          }}*/}
+          {/*      />*/}
+          {/*    </span>*/}
+          {/*  </span>*/}
+			{/*			<span className="frame5-text108">*/}
+          {/*    <span>*/}
+          {/*      Manager - Karl J.*/}
+          {/*      <span*/}
+	      {/*          dangerouslySetInnerHTML={{*/}
+		  {/*              __html: ' ',*/}
+	      {/*          }}*/}
+          {/*      />*/}
+          {/*    </span>*/}
+          {/*  </span>*/}
+			{/*			<span className="frame5-text110 Text">*/}
+          {/*    <span>*/}
+          {/*      Accountant - Mari K.*/}
+          {/*      <span*/}
+	      {/*          dangerouslySetInnerHTML={{*/}
+		  {/*              __html: ' ',*/}
+	      {/*          }}*/}
+          {/*      />*/}
+          {/*    </span>*/}
+          {/*  </span>*/}
+			{/*		</div>*/}
+			{/*		<span className="frame5-text112">*/}
+          {/*  <span>*/}
+          {/*    <span>Contacts:</span>*/}
+          {/*    <br></br>*/}
+          {/*    <span>tel: +3456142536</span>*/}
+          {/*    <br></br>*/}
+          {/*    <span>e-mail: oh.no1pome@granate.com</span>*/}
+          {/*  </span>*/}
+          {/*</span>*/}
+			{/*		<img*/}
+			{/*			src="/playground_assets/img130011657-9ixa-500h.png"*/}
+			{/*			alt="IMG130011657"*/}
+			{/*			className="frame5-i-m-g13001"*/}
+			{/*		/>*/}
+			{/*	</div>*/}
+			{/*	<div className="frame5-breadcrumbs">*/}
+          {/*<span className="frame5-text119">*/}
+          {/*  <span>All stores</span>*/}
+          {/*</span>*/}
+			{/*		<img*/}
+			{/*			src="/playground_assets/iconsarrowsdiagramsarrow51692-bvt8.svg"*/}
+			{/*			alt="IconsArrowsDiagramsArrow51692"*/}
+			{/*			className="frame5-icons-arrows-diagrams-arrow5"*/}
+			{/*		/>*/}
+			{/*		<span className="frame5-text121">*/}
+          {/*  <span>{name}</span>*/}
+          {/*</span>*/}
+
+			{/*	</div>*/}
 
 			</div>
 		</div>

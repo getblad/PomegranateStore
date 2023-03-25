@@ -73,11 +73,6 @@ function HeaderComponent(props:any) {
 	<nav className="frame1-maskgroup">
 		<NavLink to={"/profile"}>
 		<img
-			src="/playground_assets/ellipse37i275-sof-200h.png"
-			alt="Ellipse37I275"
-			className="frame1-ellipse37"
-		/>
-		<img
 			src="/playground_assets/unsplashznhrntwxg6qi275-xsqd-200h.png"
 			alt="unsplashZnHRNtwXg6QI275"
 			className="frame1-unsplash-zn-h-r-ntw-xg6q"
