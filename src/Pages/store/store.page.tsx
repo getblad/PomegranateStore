@@ -21,6 +21,7 @@ function StorePage({name, address, workers, photo, openingHours}:StoreProps) {
 	};
 	return (
 		<>
+			<HeaderComponent/>
 		<div className="container">
 			<div className="frame5-frame5">
 				<div className="frame5-products">
@@ -570,7 +571,6 @@ function StorePage({name, address, workers, photo, openingHours}:StoreProps) {
 
 			</div>
 		</div>
-			<HeaderComponent/>
 			</>
 
 	);
