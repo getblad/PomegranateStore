@@ -66,10 +66,13 @@
 }
 .frame1-menu {
     width: 580px;
+
     /*display: flex;*/
 
     display: inherit;
+
     align-items: center;
+    position: absolute;
     flex-shrink: 0;
     border-color: transparent;
     /*justify-content: space-between;*/
