@@ -37,6 +37,7 @@
     "@types/react-helmet": "^6.1.6",
     "@types/react-router-dom": "^5.3.3",
     "@types/react-tabs": "^5.0.5",
+    "bootstrap": "^5.2.3",
     "react-scripts": "^5.0.1",
     "react-select": "^5.7.0",
     "react-tabs": "^6.0.0"
