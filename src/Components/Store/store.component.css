@@ -1,22 +1,28 @@
 .frame1-frame2 {
     top: 301px;
     left: 60px;
-    width: 380px;
-    height: 358px;
+    /*width: 380px;*/
+    /*height: 358px;*/
     display: flex;
     padding: 0;
-    position: relative;
+    /*position: relative;*/
     align-self: auto;
-    box-sizing: border-box;
+    /*box-sizing: border-box;*/
     align-items: flex-start;
     flex-shrink: 1;
     border-color: transparent;
     border-style: none;
     border-width: 0;
-    margin-right: 0;
+    /*margin-right: 0;*/
     border-radius: 0px 0px 0px 0px;
-    margin-bottom: 0;
-    flex-direction: row;
+    /*margin-bottom: 0;*/
+    flex-direction: column;
     justify-content: flex-start;
     background-color: transparent;
+    margin: 5px 5px 5px 5px;
+}
+.img-fluid:hover{
+
+    transition: .3s ease-in;
+    box-shadow: 4px 4px 15px -4px var(--dl-color-default-4);
 }

@@ -18,18 +18,19 @@ const storesDB:StoreProps[] = [{
   {name: "# 5", address:"somewhere else", imagePath: "/playground_assets/img13011360-09hzm-300h.png", link:""}
 ]
 const stores = storesDB.map(a =>
-    <div className="col-4">
+    <div className="col-xl-4">
     <StoreComponent address={a.address} name={a.name} imagePath={a.imagePath} link={a.link}/>
 </div>);
 const Frame1 = (props:any) => {
   return (
         <>
+            <HeaderComponent/>
         <div className="container">
           <div className="frame1-frame1">
             <div className="frame1-filters">
               <SelectComponent/>
               <SearchBox/>
-            </div>
+              </div>
             <span className="frame1-text04">
           <span>All stores</span>
         </span>
@@ -38,7 +39,6 @@ const Frame1 = (props:any) => {
             </div>
           </div>
         </div>
-            <HeaderComponent/>
     </>
 
   )

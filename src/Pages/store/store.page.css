@@ -12,7 +12,7 @@
   align-items: flex-start;
   flex-shrink: 0;
   border-color: transparent;
-  background-color: rgba(255, 255, 255, 1);
+  /*background-color: rgba(255, 255, 255, 1);*/
 }
 .react-tabs {
    width: 980px;
@@ -1843,32 +1843,29 @@
   position: relative;
 }
 .frame5-storeinfo {
-  top: 273px;
-  left: 130px;
-  width: 1180px;
-  height: 430px;
   display: flex;
   padding: 0;
-  position: absolute;
+  /*position: absolute;*/
   align-self: auto;
-  box-sizing: border-box;
+  /*box-sizing: border-box;*/
   align-items: flex-start;
-  flex-shrink: 1;
+  flex-direction: column;
+  /*flex-shrink: 1;*/
   border-color: transparent;
   border-style: none;
   border-width: 0;
   margin-right: 0;
   border-radius: 0px 0px 0px 0px;
   margin-bottom: 0;
-  flex-direction: row;
   justify-content: flex-start;
   background-color: transparent;
+  margin-top: 20px;
 }
 .frame5-text096 {
   color: var(--dl-color-default-3);
-  width: 180px;
-  height: auto;
-  position: absolute;
+  /*width: 180px;*/
+  height: 60px;
+  /*position: absolute;*/
   align-self: auto;
   text-align: left;
   line-height: normal;
@@ -1876,9 +1873,9 @@
 .frame5-text098 {
   top: 63px;
   color: var(--dl-color-default-3);
-  width: 380px;
-  height: auto;
-  position: absolute;
+  /*width: 380px;*/
+  height: 40px;
+  /*position: absolute;*/
   font-size: 24px;
   align-self: auto;
   font-style: Regular;
@@ -1892,9 +1889,9 @@
 .frame5-text100 {
   top: 107px;
   color: var(--dl-color-default-3);
-  width: 380px;
-  height: auto;
-  position: absolute;
+  /*width: 380px;*/
+  height: 40px;
+  /*position: absolute;*/
   font-size: 24px;
   align-self: auto;
   font-style: Regular;
@@ -1908,13 +1905,13 @@
 .frame5-group1 {
   top: 288px;
   left: 0px;
-  width: 380px;
-  height: 142px;
+  /*width: 380px;*/
+  /*height: 142px;*/
   display: flex;
   padding: 0;
-  position: absolute;
+  /*position: absolute;*/
   align-self: auto;
-  box-sizing: border-box;
+  /*box-sizing: border-box;*/
   align-items: flex-start;
   flex-shrink: 1;
   border-color: transparent;
@@ -1929,7 +1926,7 @@
   color: var(--dl-color-default-3);
   width: 380px;
   height: auto;
-  position: absolute;
+  /*position: absolute;*/
   font-size: 24px;
   align-self: auto;
   font-style: Regular;
@@ -1943,9 +1940,9 @@
 .frame5-text104 {
   left: 300px;
   color: var(--dl-color-default-4);
-  width: 80px;
-  height: auto;
-  position: absolute;
+  /*width: 80px;*/
+  /*height: auto;*/
+  /*position: absolute;*/
   font-size: 24px;
   align-self: auto;
   font-style: Regular;
@@ -1961,7 +1958,7 @@
   color: var(--dl-color-default-3);
   width: 380px;
   height: auto;
-  position: absolute;
+  /*position: absolute;*/
   font-size: 24px;
   align-self: auto;
   font-style: Regular;
@@ -1977,7 +1974,7 @@
   color: var(--dl-color-default-3);
   width: 380px;
   height: auto;
-  position: absolute;
+  /*position: absolute;*/
   font-size: 24px;
   align-self: auto;
   font-style: Regular;
@@ -1993,7 +1990,7 @@
   color: var(--dl-color-default-3);
   width: 380px;
   height: auto;
-  position: absolute;
+  /*position: absolute;*/
   align-self: auto;
   text-align: left;
   line-height: normal;
@@ -2003,7 +2000,7 @@
   color: var(--dl-color-default-3);
   width: 380px;
   height: auto;
-  position: absolute;
+  /*position: absolute;*/
   font-size: 24px;
   align-self: auto;
   font-style: Regular;
@@ -2019,7 +2016,8 @@
   left: 500px;
   width: 680px;
   height: 430px;
-  position: absolute;
+  aspect-ratio: 1/1;
+  /*position: absolute;*/
   border-color: transparent;
   border-radius: 11px;
 }
@@ -2039,6 +2037,7 @@
   height: auto;
   font-size: 16px;
   align-self: auto;
+  flex-direction: row;
   font-style: Regular;
   text-align: center;
   font-family: ABeeZee;

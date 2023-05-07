@@ -1,4 +1,4 @@
-
+/*todo: header panel is stretching only 100vh*/
 .frame1-header {
     /*top: 0px;*/
     /*left: 0px;*/
@@ -72,7 +72,7 @@
     display: inherit;
 
     align-items: center;
-    position: absolute;
+    /*position: absolute;*/
     flex-shrink: 0;
     border-color: transparent;
     /*justify-content: space-between;*/

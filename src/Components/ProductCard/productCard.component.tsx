@@ -17,7 +17,8 @@ function ProductCardComponent({name, itemsLeft, image} : ProductCardProps) {
                         <div><span id="amount">1</span></div>
                         <img className="plus-minus-btn" src=" https://img.icons8.com/material-sharp/256/minus.png"/>
                 </div>
-                        <a href="" className="button">Order</a>
+                        {/*<a href="" className="button">Order</a>*/}
+	                <span className="button">Order</span>
                 </div>
         </div>
 	);

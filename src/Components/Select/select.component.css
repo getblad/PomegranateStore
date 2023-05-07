@@ -3,7 +3,10 @@
     height: 40px;
     position: relative;
     margin-top: 0px;
+    margin-right: 10px;
 }
+/*TODO: make media queries*/
+
 
 .custom-select__control {
     border: 1px solid rgba(170, 171, 173, 0.3);
