@@ -30,7 +30,7 @@
     position: absolute;
     font-size: 14px;
     align-self: stretch;
-    font-style: Regular;
+    le: Regular;
     text-align: left;
     font-family: ABeeZee;
     font-weight: 400;
@@ -55,7 +55,7 @@
     outline: none;
     font-size: 14px;
     color: var(--dl-color-default-4);
-    font-style: Regular;
+
     font-family: ABeeZee;
     font-weight: 400;
     line-height: 22px;

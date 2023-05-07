@@ -50,7 +50,6 @@
     position: relative;
     font-size: 44px;
     align-self: auto;
-    font-style: Regular;
     text-align: left;
     font-family: ABeeZee;
     font-weight: 400;
@@ -65,7 +64,7 @@
     color: var(--dl-color-default-1);
 }
 .frame1-menu {
-    width: 580px;
+    /*width: 580px;*/
 
     /*display: flex;*/
 
@@ -75,6 +74,7 @@
     /*position: absolute;*/
     flex-shrink: 0;
     border-color: transparent;
+    flex-wrap: wrap;
     /*justify-content: space-between;*/
 }
 .frame1-allstores {
@@ -90,7 +90,6 @@
     height: auto;
     font-size: 24px;
     align-self: auto;
-    font-style: Regular;
     text-align: left;
     font-family: ABeeZee;
     font-weight: 400;
@@ -113,7 +112,6 @@
     height: auto;
     font-size: 24px;
     align-self: auto;
-    font-style: Regular;
     text-align: left;
     font-family: ABeeZee;
     font-weight: 400;
@@ -136,7 +134,6 @@
     height: auto;
     font-size: 24px;
     align-self: auto;
-    font-style: Regular;
     text-align: left;
     font-family: ABeeZee;
     font-weight: 400;
@@ -159,7 +156,6 @@
     height: auto;
     font-size: 24px;
     align-self: auto;
-    font-style: Regular;
     text-align: left;
     font-family: ABeeZee;
     font-weight: 400;

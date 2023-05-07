@@ -3,11 +3,11 @@
   min-height: 100vh;
 }
 .frame5-frame5 {
-  width: calc(100% - 10px);
-  height: 1911px;
+  /*width: calc(100% - 10px);*/
+  /*height: 1911px;*/
   display: flex;
-  overflow: hidden;
-  position: absolute;
+  /*overflow: hidden;*/
+  /*position: absolute;*/
 
   align-items: flex-start;
   flex-shrink: 0;
@@ -20,13 +20,17 @@
   left: 0;
   flex-direction: column;
   display: flex;
-  position: absolute;
+  /*position: absolute;*/
   align-items: flex-start;
   flex-shrink: 0;
   border-color: transparent;
   justify-content: space-between;
+  /*overflow-x: auto;*/
+  /*overflow-y:hidden;*/
+  /*flex-wrap: nowrap;*/
 
 }
+
 .tabs-container {
   display: flex;
   flex-direction: column;
@@ -37,11 +41,12 @@
 .tab-list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: flex-start;
   margin: 0;
   padding: 0;
   list-style: none;
 }
+
 
 .tab {
   margin: 0 10px;
@@ -51,6 +56,7 @@
   cursor: pointer;
   border: none;
   background-color: transparent;
+  white-space: nowrap;
 }
 
 .tab:focus {
@@ -109,13 +115,12 @@
   margin-top: 10px;
 }
 .frame5-products {
-  top: 823px;
-  left: 130px;
-  width: 1180px;
-  height: 1012px;
+
+  /*width: 1180px;*/
+  /*height: 1012px;*/
   display: flex;
   padding: 0;
-  position: absolute;
+  /*position: absolute;*/
   align-self: auto;
   box-sizing: border-box;
   align-items: flex-start;
@@ -126,18 +131,19 @@
   margin-right: 0;
   border-radius: 0px 0px 0px 0px;
   margin-bottom: 0;
-  flex-direction: row;
+  /*flex-direction: row;*/
   justify-content: flex-start;
   background-color: transparent;
+  flex-direction:column;
 }
 .frame5-text {
   color: var(--dl-color-default-3);
   width: 180px;
   height: auto;
-  position: absolute;
+  /*position: absolute;*/
   font-size: 30px;
   align-self: auto;
-  font-style: Regular;
+
   text-align: left;
   font-family: ABeeZee;
   font-weight: 400;
@@ -150,7 +156,7 @@
   left: 0px;
   width: 980px;
   display: flex;
-  position: absolute;
+  /*position: absolute;*/
   align-items: center;
   flex-shrink: 0;
   border-color: transparent;
@@ -161,7 +167,7 @@
   height: 42px;
   display: flex;
   padding: 0;
-  position: relative;
+  /*position: relative;*/
   align-self: auto;
   box-sizing: border-box;
   align-items: flex-start;
@@ -180,10 +186,10 @@
   color: var(--dl-color-default-3);
   width: 162px;
   height: auto;
-  position: absolute;
+  /*position: absolute;*/
   font-size: 28px;
   align-self: auto;
-  font-style: Regular;
+
   text-align: center;
   font-family: ABeeZee;
   font-weight: 400;
@@ -196,7 +202,7 @@
   height: auto;
   font-size: 28px;
   align-self: auto;
-  font-style: Regular;
+
   text-align: left;
   font-family: ABeeZee;
   font-weight: 400;
@@ -209,7 +215,7 @@
   height: auto;
   font-size: 28px;
   align-self: auto;
-  font-style: Regular;
+
   text-align: left;
   font-family: ABeeZee;
   font-weight: 400;
@@ -222,7 +228,7 @@
   height: auto;
   font-size: 28px;
   align-self: auto;
-  font-style: Regular;
+
   text-align: left;
   font-family: ABeeZee;
   font-weight: 400;
@@ -235,7 +241,7 @@
   height: auto;
   font-size: 28px;
   align-self: auto;
-  font-style: Regular;
+
   text-align: left;
   font-family: ABeeZee;
   font-weight: 400;
@@ -248,7 +254,7 @@
   height: auto;
   font-size: 28px;
   align-self: auto;
-  font-style: Regular;
+
   text-align: left;
   font-family: ABeeZee;
   font-weight: 400;
@@ -257,12 +263,13 @@
   text-decoration: none;
 }
 .frame5-filters {
-  top: 0px;
-  left: 300px;
-  width: 380px;
+
+  width: 450px;
   height: 40px;
   display: flex;
-  position: relative;
+  flex-direction: row;
+  justify-content: space-between;
+  /*position: relative;*/
   align-items: center;
   flex-shrink: 0;
   border-color: transparent;
@@ -300,7 +307,7 @@
   position: absolute;
   font-size: 14px;
   align-self: stretch;
-  font-style: Regular;
+
   text-align: left;
   font-family: ABeeZee;
   font-weight: 400;
@@ -321,7 +328,7 @@
   width: 24px;
   height: 24px;
   display: flex;
-  position: relative;
+  /*position: relative;*/
   align-items: flex-start;
   flex-shrink: 0;
   border-color: transparent;
@@ -341,7 +348,7 @@
   height: 810px;
   display: flex;
   padding: 0;
-  position: absolute;
+  /*position: absolute;*/
   align-self: auto;
   box-sizing: border-box;
   align-items: flex-start;
@@ -374,7 +381,7 @@
   position: absolute;
   font-size: 24px;
   align-self: auto;
-  font-style: Regular;
+
   text-align: left;
   font-family: ABeeZee;
   font-weight: 400;
@@ -402,7 +409,7 @@
   height: auto;
   font-size: 24px;
   align-self: auto;
-  font-style: Regular;
+
   text-align: left;
   font-family: ABeeZee;
   font-weight: 400;
@@ -415,7 +422,7 @@
   height: auto;
   font-size: 24px;
   align-self: auto;
-  font-style: Regular;
+
   text-align: left;
   font-family: ABeeZee;
   font-weight: 400;
@@ -442,7 +449,7 @@
   height: auto;
   font-size: 24px;
   align-self: auto;
-  font-style: Regular;
+
   text-align: left;
   font-family: ABeeZee;
   font-weight: 400;
@@ -527,7 +534,7 @@
   height: auto;
   font-size: 24px;
   align-self: auto;
-  font-style: Regular;
+
   text-align: left;
   font-family: ABeeZee;
   font-weight: 400;
@@ -560,7 +567,7 @@
   position: absolute;
   font-size: 24px;
   align-self: auto;
-  font-style: Regular;
+
   text-align: left;
   font-family: ABeeZee;
   font-weight: 400;
@@ -588,7 +595,7 @@
   height: auto;
   font-size: 24px;
   align-self: auto;
-  font-style: Regular;
+
   text-align: left;
   font-family: ABeeZee;
   font-weight: 400;
@@ -601,7 +608,7 @@
   height: auto;
   font-size: 24px;
   align-self: auto;
-  font-style: Regular;
+
   text-align: left;
   font-family: ABeeZee;
   font-weight: 400;
@@ -628,7 +635,7 @@
   height: auto;
   font-size: 24px;
   align-self: auto;
-  font-style: Regular;
+
   text-align: left;
   font-family: ABeeZee;
   font-weight: 400;
@@ -713,7 +720,7 @@
   height: auto;
   font-size: 24px;
   align-self: auto;
-  font-style: Regular;
+
   text-align: left;
   font-family: ABeeZee;
   font-weight: 400;
@@ -746,7 +753,7 @@
   position: absolute;
   font-size: 24px;
   align-self: auto;
-  font-style: Regular;
+
   text-align: left;
   font-family: ABeeZee;
   font-weight: 400;
@@ -774,7 +781,7 @@
   height: auto;
   font-size: 24px;
   align-self: auto;
-  font-style: Regular;
+
   text-align: left;
   font-family: ABeeZee;
   font-weight: 400;
@@ -787,7 +794,7 @@
   height: auto;
   font-size: 24px;
   align-self: auto;
-  font-style: Regular;
+
   text-align: left;
   font-family: ABeeZee;
   font-weight: 400;
@@ -814,7 +821,7 @@
   height: auto;
   font-size: 24px;
   align-self: auto;
-  font-style: Regular;
+
   text-align: left;
   font-family: ABeeZee;
   font-weight: 400;
@@ -899,7 +906,7 @@
   height: auto;
   font-size: 24px;
   align-self: auto;
-  font-style: Regular;
+
   text-align: left;
   font-family: ABeeZee;
   font-weight: 400;
@@ -932,7 +939,7 @@
   position: absolute;
   font-size: 24px;
   align-self: auto;
-  font-style: Regular;
+
   text-align: left;
   font-family: ABeeZee;
   font-weight: 400;
@@ -960,7 +967,7 @@
   height: auto;
   font-size: 24px;
   align-self: auto;
-  font-style: Regular;
+
   text-align: left;
   font-family: ABeeZee;
   font-weight: 400;
@@ -973,7 +980,7 @@
   height: auto;
   font-size: 24px;
   align-self: auto;
-  font-style: Regular;
+
   text-align: left;
   font-family: ABeeZee;
   font-weight: 400;
@@ -1000,7 +1007,7 @@
   height: auto;
   font-size: 24px;
   align-self: auto;
-  font-style: Regular;
+
   text-align: left;
   font-family: ABeeZee;
   font-weight: 400;
@@ -1085,7 +1092,7 @@
   height: auto;
   font-size: 24px;
   align-self: auto;
-  font-style: Regular;
+
   text-align: left;
   font-family: ABeeZee;
   font-weight: 400;
@@ -1118,7 +1125,7 @@
   position: absolute;
   font-size: 24px;
   align-self: auto;
-  font-style: Regular;
+
   text-align: left;
   font-family: ABeeZee;
   font-weight: 400;
@@ -1146,7 +1153,7 @@
   height: auto;
   font-size: 24px;
   align-self: auto;
-  font-style: Regular;
+
   text-align: left;
   font-family: ABeeZee;
   font-weight: 400;
@@ -1159,7 +1166,7 @@
   height: auto;
   font-size: 24px;
   align-self: auto;
-  font-style: Regular;
+
   text-align: left;
   font-family: ABeeZee;
   font-weight: 400;
@@ -1186,7 +1193,7 @@
   height: auto;
   font-size: 24px;
   align-self: auto;
-  font-style: Regular;
+
   text-align: left;
   font-family: ABeeZee;
   font-weight: 400;
@@ -1271,7 +1278,7 @@
   height: auto;
   font-size: 24px;
   align-self: auto;
-  font-style: Regular;
+
   text-align: left;
   font-family: ABeeZee;
   font-weight: 400;
@@ -1304,7 +1311,7 @@
   position: absolute;
   font-size: 24px;
   align-self: auto;
-  font-style: Regular;
+
   text-align: left;
   font-family: ABeeZee;
   font-weight: 400;
@@ -1332,7 +1339,7 @@
   height: auto;
   font-size: 24px;
   align-self: auto;
-  font-style: Regular;
+
   text-align: left;
   font-family: ABeeZee;
   font-weight: 400;
@@ -1345,7 +1352,7 @@
   height: auto;
   font-size: 24px;
   align-self: auto;
-  font-style: Regular;
+
   text-align: left;
   font-family: ABeeZee;
   font-weight: 400;
@@ -1372,7 +1379,7 @@
   height: auto;
   font-size: 24px;
   align-self: auto;
-  font-style: Regular;
+
   text-align: left;
   font-family: ABeeZee;
   font-weight: 400;
@@ -1457,7 +1464,7 @@
   height: auto;
   font-size: 24px;
   align-self: auto;
-  font-style: Regular;
+
   text-align: left;
   font-family: ABeeZee;
   font-weight: 400;
@@ -1490,7 +1497,7 @@
   position: absolute;
   font-size: 24px;
   align-self: auto;
-  font-style: Regular;
+
   text-align: left;
   font-family: ABeeZee;
   font-weight: 400;
@@ -1518,7 +1525,7 @@
   height: auto;
   font-size: 24px;
   align-self: auto;
-  font-style: Regular;
+
   text-align: left;
   font-family: ABeeZee;
   font-weight: 400;
@@ -1531,7 +1538,7 @@
   height: auto;
   font-size: 24px;
   align-self: auto;
-  font-style: Regular;
+
   text-align: left;
   font-family: ABeeZee;
   font-weight: 400;
@@ -1558,7 +1565,7 @@
   height: auto;
   font-size: 24px;
   align-self: auto;
-  font-style: Regular;
+
   text-align: left;
   font-family: ABeeZee;
   font-weight: 400;
@@ -1643,7 +1650,7 @@
   height: auto;
   font-size: 24px;
   align-self: auto;
-  font-style: Regular;
+
   text-align: left;
   font-family: ABeeZee;
   font-weight: 400;
@@ -1676,7 +1683,7 @@
   position: absolute;
   font-size: 24px;
   align-self: auto;
-  font-style: Regular;
+
   text-align: left;
   font-family: ABeeZee;
   font-weight: 400;
@@ -1704,7 +1711,7 @@
   height: auto;
   font-size: 24px;
   align-self: auto;
-  font-style: Regular;
+
   text-align: left;
   font-family: ABeeZee;
   font-weight: 400;
@@ -1717,7 +1724,7 @@
   height: auto;
   font-size: 24px;
   align-self: auto;
-  font-style: Regular;
+
   text-align: left;
   font-family: ABeeZee;
   font-weight: 400;
@@ -1744,7 +1751,7 @@
   height: auto;
   font-size: 24px;
   align-self: auto;
-  font-style: Regular;
+
   text-align: left;
   font-family: ABeeZee;
   font-weight: 400;
@@ -1829,7 +1836,7 @@
   height: auto;
   font-size: 24px;
   align-self: auto;
-  font-style: Regular;
+
   text-align: left;
   font-family: ABeeZee;
   font-weight: 400;
@@ -1864,7 +1871,7 @@
 .frame5-text096 {
   color: var(--dl-color-default-3);
   /*width: 180px;*/
-  height: 60px;
+  /*height: 60px;*/
   /*position: absolute;*/
   align-self: auto;
   text-align: left;
@@ -1873,12 +1880,14 @@
 .frame5-text098 {
   top: 63px;
   color: var(--dl-color-default-3);
+  margin-top: 10px;
+  margin-bottom: 7px;
   /*width: 380px;*/
-  height: 40px;
+  /*height: 40px;*/
   /*position: absolute;*/
   font-size: 24px;
   align-self: auto;
-  font-style: Regular;
+
   text-align: left;
   font-family: ABeeZee;
   font-weight: 400;
@@ -1890,11 +1899,11 @@
   top: 107px;
   color: var(--dl-color-default-3);
   /*width: 380px;*/
-  height: 40px;
+  /*height: 40px;*/
   /*position: absolute;*/
   font-size: 24px;
   align-self: auto;
-  font-style: Regular;
+
   text-align: left;
   font-family: ABeeZee;
   font-weight: 400;
@@ -1919,23 +1928,28 @@
   border-width: 0;
   border-radius: 0px 0px 0px 0px;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: space-between;
   background-color: transparent;
 }
 .frame5-text102 {
   color: var(--dl-color-default-3);
-  width: 380px;
+  width: 350px;
   height: auto;
   /*position: absolute;*/
   font-size: 24px;
   align-self: auto;
-  font-style: Regular;
+
   text-align: left;
   font-family: ABeeZee;
   font-weight: 400;
   line-height: normal;
   font-stretch: normal;
   text-decoration: none;
+}
+@media(max-width: 910px){
+  .frame5-text102{
+    width: 150px;
+  }
 }
 .frame5-text104 {
   left: 300px;
@@ -1945,7 +1959,7 @@
   /*position: absolute;*/
   font-size: 24px;
   align-self: auto;
-  font-style: Regular;
+
   text-align: left;
   font-family: ABeeZee;
   font-weight: 400;
@@ -1956,28 +1970,29 @@
 .frame5-text106 {
   top: 38px;
   color: var(--dl-color-default-3);
-  width: 380px;
+  /*width: 380px;*/
   height: auto;
   /*position: absolute;*/
   font-size: 24px;
   align-self: auto;
-  font-style: Regular;
+
   text-align: left;
   font-family: ABeeZee;
   font-weight: 400;
   line-height: normal;
   font-stretch: normal;
   text-decoration: none;
+  margin-top: 5px;
 }
 .frame5-text108 {
   top: 76px;
   color: var(--dl-color-default-3);
-  width: 380px;
+  /*width: 380px;*/
   height: auto;
   /*position: absolute;*/
   font-size: 24px;
   align-self: auto;
-  font-style: Regular;
+
   text-align: left;
   font-family: ABeeZee;
   font-weight: 400;
@@ -1988,7 +2003,7 @@
 .frame5-text110 {
   top: 114px;
   color: var(--dl-color-default-3);
-  width: 380px;
+  /*width: 380px;*/
   height: auto;
   /*position: absolute;*/
   align-self: auto;
@@ -1996,14 +2011,14 @@
   line-height: normal;
 }
 .frame5-text112 {
-  top: 151px;
+  /*top: 151px;*/
   color: var(--dl-color-default-3);
-  width: 380px;
+  /*width: 380px;*/
   height: auto;
   /*position: absolute;*/
   font-size: 24px;
   align-self: auto;
-  font-style: Regular;
+
   text-align: left;
   font-family: ABeeZee;
   font-weight: 400;
@@ -2015,8 +2030,10 @@
   top: 0px;
   left: 500px;
   width: 680px;
-  height: 430px;
-  aspect-ratio: 1/1;
+  /*height: 430px;*/
+  /*width: 50%;*/
+  /*height: 50%;*/
+  /*aspect-ratio: 68/43;*/
   /*position: absolute;*/
   border-color: transparent;
   border-radius: 11px;
@@ -2038,7 +2055,7 @@
   font-size: 16px;
   align-self: auto;
   flex-direction: row;
-  font-style: Regular;
+
   text-align: center;
   font-family: ABeeZee;
   font-weight: 400;
@@ -2060,7 +2077,7 @@
   height: auto;
   font-size: 16px;
   align-self: auto;
-  font-style: Regular;
+
   text-align: center;
   font-family: ABeeZee;
   font-weight: 400;
@@ -2122,7 +2139,7 @@
   position: absolute;
   font-size: 44px;
   align-self: auto;
-  font-style: Regular;
+
   text-align: left;
   font-family: ABeeZee;
   font-weight: 400;
@@ -2162,7 +2179,7 @@
   position: absolute;
   font-size: 24px;
   align-self: auto;
-  font-style: Regular;
+
   text-align: left;
   font-family: ABeeZee;
   font-weight: 400;
@@ -2187,7 +2204,7 @@
   position: absolute;
   font-size: 24px;
   align-self: auto;
-  font-style: Regular;
+
   text-align: left;
   font-family: ABeeZee;
   font-weight: 400;
@@ -2212,7 +2229,7 @@
   position: absolute;
   font-size: 24px;
   align-self: auto;
-  font-style: Regular;
+
   text-align: left;
   font-family: ABeeZee;
   font-weight: 400;
@@ -2237,7 +2254,7 @@
   position: absolute;
   font-size: 24px;
   align-self: auto;
-  font-style: Regular;
+
   text-align: left;
   font-family: ABeeZee;
   font-weight: 400;

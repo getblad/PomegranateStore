@@ -45,7 +45,7 @@
   /*position: absolute;*/
   font-size: 2rem;
   align-self: flex-start;
-  font-style: Regular;
+
   margin-left:60px;
   text-align: left;
   font-family: ABeeZee;
@@ -66,7 +66,7 @@
   /*position: absolute;*/
   font-size: 1.5rem;
   align-self: auto;
-  font-style: Regular;
+
   text-align: left;
   font-family: ABeeZee;
   font-weight: 400;
@@ -83,7 +83,7 @@
   /*position: absolute;*/
   font-size: 1.25rem;
   align-self: auto;
-  font-style: Regular;
+
   text-align: left;
   font-family: ABeeZee;
   font-weight: 400;
@@ -131,7 +131,7 @@
   /*position: absolute;*/
   font-size: 30px;
   align-self: auto;
-  font-style: Regular;
+
   text-align: left;
   font-family: ABeeZee;
   font-weight: 400;
@@ -148,7 +148,7 @@
   /*position: absolute;*/
   font-size: 20px;
   align-self: auto;
-  font-style: Regular;
+
   text-align: left;
   font-family: ABeeZee;
   font-weight: 400;
@@ -196,7 +196,7 @@
   /*position: absolute;*/
   font-size: 30px;
   align-self: auto;
-  font-style: Regular;
+
   text-align: left;
   font-family: ABeeZee;
   font-weight: 400;
@@ -213,7 +213,7 @@
   /*position: absolute;*/
   font-size: 20px;
   align-self: auto;
-  font-style: Regular;
+
   text-align: left;
   font-family: ABeeZee;
   font-weight: 400;
@@ -261,7 +261,7 @@
   /*position: absolute;*/
   font-size: 30px;
   align-self: auto;
-  font-style: Regular;
+
   text-align: left;
   font-family: ABeeZee;
   font-weight: 400;
@@ -278,7 +278,7 @@
   /*position: absolute;*/
   font-size: 20px;
   align-self: auto;
-  font-style: Regular;
+
   text-align: left;
   font-family: ABeeZee;
   font-weight: 400;
@@ -347,7 +347,7 @@
 /*  position: absolute;*/
 /*  font-size: 44px;*/
 /*  align-self: auto;*/
-/*  font-style: Regular;*/
+/*  */
 /*  text-align: left;*/
 /*  font-family: ABeeZee;*/
 /*  font-weight: 400;*/
